@@ -1,0 +1,122 @@
+.memberDetailSearch{
+    display: flex;
+    align-items: center;
+    border: 2px solid #E6EBF1;
+    border-radius: 12px;
+    /* padding: 10px 10px; */
+    padding-left: 10px;
+    max-width: 200px;
+}
+
+.memberDetailFilter{
+    display: flex;
+    align-items: center;
+    border: 2px solid #E6EBF1;
+    border-radius: 12px;
+    /* padding: 10px 10px; */
+    padding: 0px 10px;
+    /* max-width: 200px; */
+    width: fit-content;
+    margin-left: 15px;
+}
+
+.memberDetailSerachInput{
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+    color: #1A3353;
+    max-width: 80%;
+}
+
+.memberDetailSerachInput:focus{
+    outline: none;
+}
+
+.memberDetailTableSearchFilter{
+    margin-bottom: 20px;
+    display: flex;
+
+}
+
+.memberDetailFilterText{
+    margin-left: 12px;
+    font-weight: 500;
+    color: #1A3353;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.ant-drawer-header{
+    display: none;
+}
+
+.ant-drawer-body{
+    padding: 0;
+    padding: 24px 0px;
+}
+
+.membershipRequestProfile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #E6EBF1;
+    padding: 0px 24px;
+    padding-bottom: 10px;
+}
+
+.membershipRequestTitle{
+    font-size: larger;
+    font-weight: 500;
+    color: #1E73BE;
+    padding: 0;
+    margin: 0;
+    line-height: 16px;
+}
+
+.membershipRequestDesc{
+    font-size: 12px;
+    padding: 0;
+    margin: 0;
+    color: #1A3353;
+}
+
+.membershipRequestProfileLogo{
+    display: flex;
+    /* justify-content: center; */
+    flex-direction: column;
+    align-items: center;
+    padding: 40px 0px;
+    gap: 15px;
+}
+
+.membershipRequestProfileName{
+    font-weight: 500;
+    color: #1A3353;
+    font-size: 16px;
+}
+
+.membershipRequestProfileDetail{
+    display: flex;
+    padding: 0px 35px;
+    gap: 10px;
+}
+
+.membershipRequestProfileDetailTitle{
+    font-size: 12px;
+    color: #1A3353;
+}
+
+.membershipRequestProfileDetailTitleAns{
+    color: #1A3353;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.num{
+    min-width: max-content;
+}
+
+.membershipRequestProfileDetailForm{
+    padding: 0px 24px;
+    margin-top: 20px;
+}

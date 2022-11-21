@@ -1,0 +1,149 @@
+
+
+.membershipDetailLayout{
+    display: flex;
+    gap: 20px;
+}
+
+.membershipDetailNav{
+    display: flex;
+    align-items: center;
+    /* border: 1px solid red; */
+    height: 50px;
+    gap: 30px;
+    /* margin-left: 300px; */
+}
+
+.membershipDetailRight{
+    /* border: 1px solid brown; */
+    flex: 0.75;
+}
+
+.membershipDetailLeft{
+    border: 2px solid #E6EBF1;
+    border-radius: 12px;
+    flex: 0.25;
+    padding: 20px 10px;
+    min-width: 300px;
+    max-width: 350px;
+    margin-top: 50px;
+    
+}
+
+.membershipNavTitle{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    min-width: fit-content;
+    font-weight: 400;
+    border-bottom: 2px solid white;
+}
+
+.membershipNavTitle:hover{
+    color: #1E73BE;
+    font-weight: 500;
+    border-bottom: 2px solid #1E73BE;
+}
+
+.membershipDetailTable{
+    border: 2px solid #E6EBF1;
+    /* height: 200px; */
+    border-radius: 12px;
+}
+
+.membershipDetailProfile{
+    margin: 0px auto;
+    width: fit-content;
+}
+
+.memberDetailProfileTitle{
+    font-weight: 500;
+    color: #1A3353;
+    margin-top: 20px;
+}
+
+.membershipDetailText{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.membershipDetailName{
+    font-size: 18px;
+    text-align: center;
+    margin: 0;
+    font-weight: 500;
+    color: #1A3353;
+    line-height: 14px;
+    margin-top: 15px;
+}
+
+.membershipDetailStatus{
+    color: #00AB6F;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 10px;
+}
+
+.memberDetailSearch{
+    display: flex;
+    align-items: center;
+    border: 2px solid #E6EBF1;
+    border-radius: 12px;
+    /* padding: 10px 10px; */
+    padding-left: 10px;
+    max-width: 200px;
+}
+
+.memberDetailFilter{
+    display: flex;
+    align-items: center;
+    border: 2px solid #E6EBF1;
+    border-radius: 12px;
+    /* padding: 10px 10px; */
+    padding: 0px 10px;
+    /* max-width: 200px; */
+    width: fit-content;
+    margin-left: 20px;
+}
+
+.memberDetailSerachInput{
+    border: none;
+    padding: 6px 10px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #1A3353;
+    max-width: 80%;
+}
+
+.memberDetailSerachInput:focus{
+    outline: none;
+}
+
+.memberDetailTableSearchFilter{
+    margin-bottom: 20px;
+    display: flex;
+
+}
+
+.memberDetailFilterText{
+    margin-left: 12px;
+    font-weight: 500;
+    color: #1A3353;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.membershipPaymentPaid{
+    background-color: #EDFFF9;
+    width: fit-content;
+    padding: 0px 10px;
+    border-radius: 6px;
+}
+.membershipPaymentPending{
+    background: #FFE3E8;
+    width: fit-content;
+    padding: 0px 10px;
+    border-radius: 6px;
+}
