@@ -75,7 +75,7 @@ export default function Facility() {
                       <Link to='facility_list' > <EyeOutlined className='mr-2 ' />View/Edit Details</Link >
                     </Menu.Item>
                     <Menu.Item>
-                      <Link to={`${record.facility_name.replaceAll(" ",'_')}`} > <UnorderedListOutlined className='mr-2 ' />{record.facility_name}</Link >
+                      <Link to={`facility_list/${record.facility_name.replaceAll(" ",'_')}`} > <UnorderedListOutlined className='mr-2 ' />{record.facility_name}</Link >
                     </Menu.Item>
                     <Menu.Item>
                       <span onClick={() => onDeleteData(record,setFacilityData,'facility_id')}> <DeleteOutlined className='mr-2 ' />Delete</span>

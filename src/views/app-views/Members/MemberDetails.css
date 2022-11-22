@@ -1,149 +1,138 @@
-
-
-.membershipDetailLayout{
+.membershipDetailLayout {
     display: flex;
-    gap: 20px;
+    gap: 20px
 }
 
-.membershipDetailNav{
+.membershipDetailNav {
     display: flex;
     align-items: center;
-    /* border: 1px solid red; */
     height: 50px;
-    gap: 30px;
-    /* margin-left: 300px; */
+    gap: 30px
 }
 
-.membershipDetailRight{
-    /* border: 1px solid brown; */
-    flex: 0.75;
+.membershipDetailRight {
+    flex: 0.75
 }
 
-.membershipDetailLeft{
-    border: 2px solid #E6EBF1;
+.membershipDetailLeft {
+    border: 2px solid #e6ebf1;
     border-radius: 12px;
     flex: 0.25;
     padding: 20px 10px;
     min-width: 300px;
     max-width: 350px;
-    margin-top: 50px;
-    
+    margin-top: 50px
 }
 
-.membershipNavTitle{
+.membershipNavTitle {
     display: flex;
     align-items: center;
     gap: 5px;
     min-width: fit-content;
     font-weight: 400;
-    border-bottom: 2px solid white;
+    border-bottom: 2px solid #fff
 }
 
-.membershipNavTitle:hover{
-    color: #1E73BE;
+.membershipNavTitle:hover {
+    color: #1e73be;
     font-weight: 500;
-    border-bottom: 2px solid #1E73BE;
+    border-bottom: 2px solid #1e73be
 }
 
-.membershipDetailTable{
-    border: 2px solid #E6EBF1;
-    /* height: 200px; */
-    border-radius: 12px;
+.membershipDetailTable {
+    border: 2px solid #e6ebf1;
+    border-radius: 12px
 }
 
-.membershipDetailProfile{
-    margin: 0px auto;
-    width: fit-content;
+.membershipDetailProfile {
+    margin: 0 auto;
+    width: fit-content
 }
 
-.memberDetailProfileTitle{
+.memberDetailProfileTitle {
     font-weight: 500;
-    color: #1A3353;
-    margin-top: 20px;
+    color: #1a3353;
+    margin-top: 20px
 }
 
-.membershipDetailText{
+.membershipDetailText {
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 10px
 }
 
-.membershipDetailName{
+.membershipDetailName {
     font-size: 18px;
     text-align: center;
-    margin: 0;
+    margin: 15px 0 0;
     font-weight: 500;
-    color: #1A3353;
-    line-height: 14px;
-    margin-top: 15px;
+    color: #1a3353;
+    line-height: 14px
 }
 
-.membershipDetailStatus{
-    color: #00AB6F;
+.membershipDetailStatus {
+    color: #00ab6f;
     text-align: center;
-    margin: 0;
-    margin-bottom: 10px;
+    margin: 0 0 10px
 }
 
-.memberDetailSearch{
+.memberDetailFilterText,
+.memberDetailSerachInput {
+    font-weight: 500;
+    color: #1a3353;
+    font-size: 14px;
+    letter-spacing: 1px
+}
+
+.memberDetailSearch {
     display: flex;
     align-items: center;
-    border: 2px solid #E6EBF1;
+    border: 2px solid #e6ebf1;
     border-radius: 12px;
-    /* padding: 10px 10px; */
     padding-left: 10px;
-    max-width: 200px;
+    max-width: 200px
 }
 
-.memberDetailFilter{
+.memberDetailFilter {
     display: flex;
     align-items: center;
-    border: 2px solid #E6EBF1;
+    border: 2px solid #e6ebf1;
     border-radius: 12px;
-    /* padding: 10px 10px; */
-    padding: 0px 10px;
-    /* max-width: 200px; */
+    padding: 0 10px;
     width: fit-content;
-    margin-left: 20px;
+    margin-left: 20px
 }
 
-.memberDetailSerachInput{
+.memberDetailSerachInput {
     border: none;
     padding: 6px 10px;
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    color: #1A3353;
-    max-width: 80%;
+    max-width: 80%
 }
 
-.memberDetailSerachInput:focus{
-    outline: none;
+.membershipPaymentPaid,
+.membershipPaymentPending {
+    width: fit-content;
+    padding: 0 10px;
+    border-radius: 6px
 }
 
-.memberDetailTableSearchFilter{
+.memberDetailSerachInput:focus {
+    outline: 0
+}
+
+.memberDetailTableSearchFilter {
     margin-bottom: 20px;
-    display: flex;
-
+    display: flex
 }
 
-.memberDetailFilterText{
-    margin-left: 12px;
-    font-weight: 500;
-    color: #1A3353;
-    font-size: 14px;
-    letter-spacing: 1px;
+.memberDetailFilterText {
+    margin-left: 12px
 }
 
-.membershipPaymentPaid{
-    background-color: #EDFFF9;
-    width: fit-content;
-    padding: 0px 10px;
-    border-radius: 6px;
+.membershipPaymentPaid {
+    background-color: #edfff9
 }
-.membershipPaymentPending{
-    background: #FFE3E8;
-    width: fit-content;
-    padding: 0px 10px;
-    border-radius: 6px;
+
+.membershipPaymentPending {
+    background: #ffe3e8
 }

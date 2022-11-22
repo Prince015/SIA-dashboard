@@ -627,6 +627,7 @@ export const membershipRequest = [
 export const facilityList = [
     {
         facility_id : "#123",
+        facility_type : "Indor Hall",
         facility_name : "Event Facility",
         business_hrs : "Mon-Fri, 10:00-8:00Pm",
         no_of_bookings : 20,
@@ -636,6 +637,7 @@ export const facilityList = [
     },
     {
         facility_id : "#124",
+        facility_type : "Open Garden",
         facility_name : "Singing Club",
         business_hrs : "Mon-Fri, 10:00-8:00Pm",
         no_of_bookings : 20,
@@ -645,6 +647,7 @@ export const facilityList = [
     },
     {
         facility_id : "#125",
+        facility_type : "Indor Hall",
         facility_name : "Event Facility",
         business_hrs : "Mon-Fri, 10:00-8:00Pm",
         no_of_bookings : 20,
@@ -654,6 +657,7 @@ export const facilityList = [
     },
     {
         facility_id : "#126",
+        facility_type : "Indor Hall 2",
         facility_name : "Sports Facility",
         business_hrs : "Mon-Fri, 10:00-8:00Pm",
         no_of_bookings : 20,
@@ -663,6 +667,7 @@ export const facilityList = [
     },
     {
         facility_id : "#127",
+        facility_type : "Indor Hall",
         facility_name : "Event Facility",
         business_hrs : "Mon-Fri, 10:00-8:00Pm",
         no_of_bookings : 20,
@@ -672,6 +677,7 @@ export const facilityList = [
     },
     {
         facility_id : "#128",
+        facility_type : "Pool area",
         facility_name : "Resurant & Bar",
         business_hrs : "Mon-Fri, 10:00-8:00Pm",
         no_of_bookings : 20,
@@ -681,6 +687,7 @@ export const facilityList = [
     },
     {
         facility_id : "#129",
+        facility_type : "Indor Hall",
         facility_name : "Event Facility",
         business_hrs : "Mon-Fri, 10:00-8:00Pm",
         no_of_bookings : 20,
@@ -690,6 +697,7 @@ export const facilityList = [
     },
     {
         facility_id : "#121",
+        facility_type : "Indor Hall",
         facility_name : "Sports Club",
         business_hrs : "Mon-Fri, 10:00-8:00Pm",
         no_of_bookings : 20,

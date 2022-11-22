@@ -106,7 +106,7 @@ function AddNew() {
               </Form.Item>
             </div>
             <Form.Item className='border rounded p-3 py-4 mt-4' name="eventDetails" label="Event Details" >
-              <TextArea rows={8} placeholder='Event Fee' style={{ width: "100%" }} />
+              <TextArea rows={8} placeholder='Type Here' style={{ width: "100%" }} />
             </Form.Item>
           </div>
           <div style={{ flex: "0.3", minWidth: "300px", height: "280px" }} className='border rounded p-3 py-4'>
