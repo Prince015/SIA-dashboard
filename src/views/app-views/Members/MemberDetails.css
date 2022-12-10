@@ -15,7 +15,7 @@
 }
 
 .membershipDetailLeft {
-    border: 2px solid #e6ebf1;
+    border: 1px solid #e6ebf1;
     border-radius: 12px;
     flex: 0.25;
     padding: 20px 10px;
@@ -30,17 +30,17 @@
     gap: 5px;
     min-width: fit-content;
     font-weight: 400;
-    border-bottom: 2px solid #fff
+    border-bottom: 1px solid #fff
 }
 
 .membershipNavTitle:hover {
     color: #1e73be;
     font-weight: 500;
-    border-bottom: 2px solid #1e73be
+    border-bottom: 1px solid #1e73be
 }
 
 .membershipDetailTable {
-    border: 2px solid #e6ebf1;
+    border: 1px solid #e6ebf1;
     border-radius: 12px
 }
 
@@ -87,7 +87,7 @@
 .memberDetailSearch {
     display: flex;
     align-items: center;
-    border: 2px solid #e6ebf1;
+    border: 1px solid #e6ebf1;
     border-radius: 12px;
     padding-left: 10px;
     max-width: 200px
@@ -96,7 +96,7 @@
 .memberDetailFilter {
     display: flex;
     align-items: center;
-    border: 2px solid #e6ebf1;
+    border: 1px solid #e6ebf1;
     border-radius: 12px;
     padding: 0 10px;
     width: fit-content;
@@ -135,4 +135,10 @@
 
 .membershipPaymentPending {
     background: #ffe3e8
+}
+
+hr{
+    height: 1px;
+    border: none;
+    background-color: #e6ebf1;
 }

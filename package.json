@@ -2,6 +2,7 @@
   "name": "emilus",
   "version": "2.1.6",
   "private": true,
+  "homepage" : "https://prince015.github.io/SIA-dashboard/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
@@ -59,6 +60,8 @@
     "web-vitals": "^0.2.4"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -85,6 +88,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^9.8.4",
+    "gh-pages": "^4.0.0",
     "gulp": "^4.0.2",
     "gulp-csso": "^4.0.1",
     "gulp-debug": "^4.0.0",
