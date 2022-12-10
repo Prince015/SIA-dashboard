@@ -1,0 +1,1 @@
+{"version":3,"sources":["webpack://src/views/app-views/Events/AddNew.css"],"names":[],"mappings":"AAAA,mFACI,UAAW,CACX,YACJ","file":"22.e1dc49c1.chunk.css","sourcesContent":[".ant-upload.ant-upload-select-picture-card,.ant-upload-list-picture-card-container{\r\n    width: 100%;\r\n    height: 170px;\r\n}"]}
